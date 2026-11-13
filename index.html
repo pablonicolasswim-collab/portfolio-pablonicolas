@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Portfolio de Pablo Nicolás Bonilla León, estudiante de Desarrollo de Aplicaciones Web.">
+  <title>Pablo Bonilla | Portfolio web</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%92%BB%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+  <!-- Menú de navegación -->
+  <header class="sticky-top">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="#sobre-mi">Pablo Bonilla</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Abrir menú">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="menu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="#sobre-mi">Sobre mí</a></li>
+            <li class="nav-item"><a class="nav-link" href="#habilidades">Habilidades</a></li>
+            <li class="nav-item"><a class="nav-link" href="#proyectos">Proyectos</a></li>
+            <li class="nav-item"><a class="nav-link" href="#formacion">Formación</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Presentación -->
+    <section id="sobre-mi" class="py-5 portada">
+      <div class="container">
+        <div class="row align-items-center g-4">
+          <div class="col-md-8">
+            <p class="text-primary fw-semibold mb-2">¡Hola! Soy</p>
+            <h1 class="display-5 fw-bold">Pablo Nicolás Bonilla León</h1>
+            <h2 class="h4 text-secondary mb-3">Técnico informático · Estudiante de DAW</h2>
+            <p>Estoy estudiando Desarrollo de Aplicaciones Web y me interesa crear páginas web y aprender a programar. Me gusta seguir mejorando con los proyectos que hago en clase y por mi cuenta.</p>
+            <a href="#proyectos" class="btn btn-primary me-2 mb-2">Ver proyectos</a>
+            <a href="docs/cv.pdf" class="btn btn-outline-primary mb-2" download>Descargar CV</a>
+          </div>
+          <div class="col-md-4 text-center">
+            <img src="img/avatar.webp" class="img-fluid foto-perfil" alt="Avatar de perfil de Pablo Bonilla" width="260" height="260">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Conocimientos -->
+    <section id="habilidades" class="py-5">
+      <div class="container">
+        <h2 class="mb-4">Habilidades</h2>
+        <div class="row g-3">
+          <div class="col-sm-6 col-lg-3">
+            <div class="card h-100"><div class="card-body">
+              <h3 class="h5">Front-end</h3>
+              <span class="badge text-bg-primary">HTML</span>
+              <span class="badge text-bg-primary">CSS</span>
+              <span class="badge text-bg-primary">JavaScript</span>
+              <span class="badge text-bg-primary">Bootstrap</span>
+            </div></div>
+          </div>
+          <div class="col-sm-6 col-lg-3">
+            <div class="card h-100"><div class="card-body">
+              <h3 class="h5">Back-end</h3>
+              <span class="badge text-bg-primary">Java</span>
+              <span class="badge text-bg-primary">PHP básico</span>
+            </div></div>
+          </div>
+          <div class="col-sm-6 col-lg-3">
+            <div class="card h-100"><div class="card-body">
+              <h3 class="h5">Bases de datos</h3>
+              <span class="badge text-bg-primary">MySQL</span>
+              <span class="badge text-bg-primary">SQL</span>
+            </div></div>
+          </div>
+          <div class="col-sm-6 col-lg-3">
+            <div class="card h-100"><div class="card-body">
+              <h3 class="h5">Herramientas y otras</h3>
+              <span class="badge text-bg-primary">VS Code</span>
+              <span class="badge text-bg-primary">GitHub</span>
+              <span class="badge text-bg-primary">Postman</span>
+              <span class="badge text-bg-secondary">Trabajo en equipo</span>
+              <span class="badge text-bg-secondary">Inglés B1 Trinity</span>
+            </div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Trabajos de clase -->
+    <section id="proyectos" class="py-5 bg-light">
+      <div class="container">
+        <h2 class="mb-4">Mis proyectos</h2>
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-4">
+            <article class="card h-100">
+              <img src="img/proyecto-hotel.webp" class="card-img-top img-fluid" alt="Vista ilustrativa de una aplicación de reservas de hotel" width="640" height="360">
+              <div class="card-body d-flex flex-column">
+                <h3 class="h5 card-title">Reservas de hotel</h3>
+                <p class="card-text">Proyecto de clase para gestionar reservas de habitaciones y guardar los datos en una base de datos.</p>
+                <p><span class="badge text-bg-secondary">Java</span> <span class="badge text-bg-secondary">MySQL</span></p>
+                <div class="mt-auto"><a href="https://github.com/TU-USUARIO/hotel-reservas" class="btn btn-sm btn-outline-primary me-2">Demo</a><a href="https://github.com/TU-USUARIO/hotel-reservas" class="btn btn-sm btn-primary">Código</a></div>
+              </div>
+            </article>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <article class="card h-100">
+              <img src="img/proyecto-ajedrez.webp" class="card-img-top img-fluid" alt="Vista ilustrativa de un tablero de ajedrez hecho con JavaScript" width="640" height="360">
+              <div class="card-body d-flex flex-column">
+                <h3 class="h5 card-title">Tablero de ajedrez</h3>
+                <p class="card-text">Tablero de 8 por 8 creado con HTML, CSS y JavaScript para practicar bucles y condiciones.</p>
+                <p><span class="badge text-bg-secondary">HTML</span> <span class="badge text-bg-secondary">CSS</span> <span class="badge text-bg-secondary">JavaScript</span></p>
+                <div class="mt-auto"><a href="https://TU-USUARIO.github.io/ajedrez/" class="btn btn-sm btn-outline-primary me-2">Demo</a><a href="https://github.com/TU-USUARIO/ajedrez" class="btn btn-sm btn-primary">Código</a></div>
+              </div>
+            </article>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <article class="card h-100">
+              <img src="img/proyecto-api.webp" class="card-img-top img-fluid" alt="Vista ilustrativa de pruebas de una API en Postman" width="640" height="360">
+              <div class="card-body d-flex flex-column">
+                <h3 class="h5 card-title">Pruebas de APIs</h3>
+                <p class="card-text">Práctica con Postman para probar peticiones GET, POST, PUT y DELETE en APIs públicas.</p>
+                <p><span class="badge text-bg-secondary">Postman</span> <span class="badge text-bg-secondary">APIs</span></p>
+                <div class="mt-auto"><a href="https://github.com/TU-USUARIO/postman-apis" class="btn btn-sm btn-outline-primary me-2">Demo</a><a href="https://github.com/TU-USUARIO/postman-apis" class="btn btn-sm btn-primary">Código</a></div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Estudios y experiencia -->
+    <section id="formacion" class="py-5">
+      <div class="container">
+        <h2 class="mb-4">Formación y experiencia</h2>
+        <ul class="list-group">
+          <li class="list-group-item"><strong>Grado Superior en Desarrollo de Aplicaciones Web (DAW)</strong><p class="mb-0">Actualmente cursando mis estudios en MEDAC Sevilla Este.</p></li>
+          <li class="list-group-item"><strong>Grado Medio en Sistemas Microinformáticos y Redes (SMR)</strong><p class="mb-0">Formación en equipos informáticos, redes y sistemas.</p></li>
+          <li class="list-group-item"><strong>Práctica en proyectos de clase</strong><p class="mb-0">Diseño de páginas web, programación, bases de datos y trabajo en equipo.</p></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Formulario solo maquetado en la primera entrega -->
+    <section id="contacto" class="py-5 bg-light">
+      <div class="container">
+        <h2 class="mb-4">Contacto</h2>
+        <div class="row g-4">
+          <div class="col-lg-7">
+            <form>
+              <div class="mb-3"><label for="nombre" class="form-label">Nombre</label><input type="text" id="nombre" class="form-control" placeholder="Tu nombre"></div>
+              <div class="mb-3"><label for="email" class="form-label">Correo electrónico</label><input type="email" id="email" class="form-control" placeholder="tunombre@correo.com"></div>
+              <div class="mb-3"><label for="asunto" class="form-label">Asunto</label><input type="text" id="asunto" class="form-control" placeholder="Motivo del mensaje"></div>
+              <div class="mb-3"><label for="mensaje" class="form-label">Mensaje</label><textarea id="mensaje" class="form-control" rows="4" placeholder="Escribe tu mensaje"></textarea></div>
+              <button type="button" class="btn btn-primary" disabled>Enviar (próxima entrega)</button>
+            </form>
+          </div>
+          <div class="col-lg-5">
+            <h3 class="h5">Mis redes</h3>
+            <p><i class="bi bi-envelope me-2"></i><a href="mailto:pablonicolas.swim@gmail.com">Correo profesional</a></p>
+            <p><i class="bi bi-linkedin me-2"></i><a href="https://www.linkedin.com/in/pablo-nicolás-bonilla-león-a9a38644b">LinkedIn</a></p>
+            <p><i class="bi bi-github me-2"></i><a href="https://github.com/pablonicolasswim-collab">GitHub</a></p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-dark text-white py-4">
+    <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center gap-2">
+      <p class="mb-0">© 2026 Pablo Nicolás Bonilla León · Última actualización: noviembre de 2026</p>
+      <div>
+        <a class="text-white me-3" href="https://github.com/pablonicolasswim-collab" aria-label="GitHub"><i class="bi bi-github"></i></a>
+        <a class="text-white me-3" href="https://www.linkedin.com/in/pablo-nicolás-bonilla-león-a9a38644b" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+        <a class="text-white" href="mailto:pablonicolas.swim@gmail.com" aria-label="Correo electrónico"><i class="bi bi-envelope"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
