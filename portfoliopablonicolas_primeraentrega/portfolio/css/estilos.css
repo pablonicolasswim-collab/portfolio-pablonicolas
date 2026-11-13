@@ -1,0 +1,6 @@
+/* Estilos sencillos del portfolio */
+html { scroll-behavior: smooth; }
+section { scroll-margin-top: 60px; }
+.portada { background-color: #eef5ff; }
+.foto-perfil { max-width: 260px; border-radius: 50%; }
+.card-img-top { aspect-ratio: 16 / 9; object-fit: cover; }
